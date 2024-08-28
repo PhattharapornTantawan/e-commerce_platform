@@ -1,0 +1,37 @@
+1.สร้าง Folder มา1  แล้วตั้งชื่อ
+2.เข้าไปที่ terminal  แล้วพิมพ์ว่า >>>npm init -y
+( สร้างไฟล์ package.json ซึ่งเป็นไฟล์ที่ใช้ในการจัดการโปรเจ็กต์ Node.js )
+
+3.download node.js ที่มีคำว่า recommended for most users
+ติดตั้ง node ในคอม  >>>node -v
+                >>>npm -v
+
+4.ติดตั้ง Git  ทำการ download for windows
+-64-bit Git for window setup (next next)
+>>>git -v
+
+5.download "visual studio code" window x 64
+
+6.EXTENSIONS
+      download 6.1.ESLint
+               6.2.Import Helper
+               6.3.Prettier - Code formatter
+               6.4.React/Redux/react-router Snippets
+               6.5.vscode-icons
+
+start
+1.สร้าง Folder มา1  แล้วตั้งชื่อ a
+2.เข้าไปที่ terminal  (Git Bash) แล้วพิมพ์ว่า >>>npm init -y
+3.สร้าง Folder มา1  แล้วตั้งชื่อ b ใน a 
+>>>npx create-react-app client
+>>>cd client
+>>>npm start
+4.แก้ package.json ที่ server >>>"scripts": {"server": "node server/index.js"},
+   สร้างไฟล์ ชื่อ .env  พิมพ์ว่า MONGO_URI:string
+
+******terminal
+>>>ctrl + c
+>>>clear
+
+>>>cd ..
+>>>npm  install bcryptjs concurrently cors dotenv express-async-handler jsonwebtoken jwt-decode mongoose nodemailer stripe  ***(package-lock.json)
